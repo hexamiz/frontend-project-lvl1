@@ -6,4 +6,5 @@ jobs:
   Eslint:
     runs-on: ubuntu-latest
     steps:
+      - run: npm ci
       - run: make lint
