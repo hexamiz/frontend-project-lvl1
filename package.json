@@ -19,5 +19,8 @@
   "homepage": "https://github.com/hexamiz/frontend-project-lvl1#readme",
   "devDependencies": {
     "prettier": "^2.3.2"
+  },
+  "bin": {
+    "brain-games": "bin/brain-games.js"
   }
 }
