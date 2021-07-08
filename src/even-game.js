@@ -31,7 +31,7 @@ export default function evenGameScenario() {
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
   for (; count < 3;) {
     const randInt = Math.floor(Math.random() * 100) + 1;
-    console.log(`Question ${randInt}`);
+    console.log(`Question: ${randInt}`);
 
     const numIsEven = isEven(randInt);
     const answer = readlineSync.question('Answer: ');
